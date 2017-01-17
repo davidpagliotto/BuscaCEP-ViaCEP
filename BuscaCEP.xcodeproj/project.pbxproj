@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1D26021450C6BF976C6033 /* libPods-BuscaCEP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5085E86CB9C55C89DC85C56A /* libPods-BuscaCEP.a */; };
+		DB2FE39E1E2D46EC006A8CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2FE39D1E2D46EC006A8CCC /* main.m */; };
+		DB2FE3A11E2D46EC006A8CCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2FE3A01E2D46EC006A8CCC /* AppDelegate.m */; };
+		DB2FE3A41E2D46EC006A8CCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2FE3A31E2D46EC006A8CCC /* ViewController.m */; };
+		DB2FE3A71E2D46EC006A8CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2FE3A51E2D46EC006A8CCC /* Main.storyboard */; };
+		DB2FE3A91E2D46EC006A8CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2FE3A81E2D46EC006A8CCC /* Assets.xcassets */; };
+		DB2FE3AC1E2D46EC006A8CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2FE3AA1E2D46EC006A8CCC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5085E86CB9C55C89DC85C56A /* libPods-BuscaCEP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuscaCEP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F45F207566CC2E1260CD16C /* Pods-BuscaCEP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuscaCEP.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuscaCEP/Pods-BuscaCEP.release.xcconfig"; sourceTree = "<group>"; };
+		B0081086221F69133DBFDDE7 /* Pods-BuscaCEP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuscaCEP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuscaCEP/Pods-BuscaCEP.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2FE3991E2D46EC006A8CCC /* BuscaCEP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuscaCEP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2FE39D1E2D46EC006A8CCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB2FE39F1E2D46EC006A8CCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB2FE3A01E2D46EC006A8CCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB2FE3A21E2D46EC006A8CCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB2FE3A31E2D46EC006A8CCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB2FE3A61E2D46EC006A8CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2FE3A81E2D46EC006A8CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2FE3AB1E2D46EC006A8CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2FE3AD1E2D46EC006A8CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2FE3961E2D46EC006A8CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1D26021450C6BF976C6033 /* libPods-BuscaCEP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		969E1F42E1369E80C4D3190B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5085E86CB9C55C89DC85C56A /* libPods-BuscaCEP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8EBD87C212696280F74D958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0081086221F69133DBFDDE7 /* Pods-BuscaCEP.debug.xcconfig */,
+				9F45F207566CC2E1260CD16C /* Pods-BuscaCEP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB2FE3901E2D46EB006A8CCC = {
+			isa = PBXGroup;
+			children = (
+				DB2FE39B1E2D46EC006A8CCC /* BuscaCEP */,
+				DB2FE39A1E2D46EC006A8CCC /* Products */,
+				B8EBD87C212696280F74D958 /* Pods */,
+				969E1F42E1369E80C4D3190B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2FE39A1E2D46EC006A8CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2FE3991E2D46EC006A8CCC /* BuscaCEP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2FE39B1E2D46EC006A8CCC /* BuscaCEP */ = {
+			isa = PBXGroup;
+			children = (
+				DB2FE3B51E2D4958006A8CCC /* Util */,
+				DB2FE39F1E2D46EC006A8CCC /* AppDelegate.h */,
+				DB2FE3A01E2D46EC006A8CCC /* AppDelegate.m */,
+				DB2FE3A21E2D46EC006A8CCC /* ViewController.h */,
+				DB2FE3A31E2D46EC006A8CCC /* ViewController.m */,
+				DB2FE3A51E2D46EC006A8CCC /* Main.storyboard */,
+				DB2FE3A81E2D46EC006A8CCC /* Assets.xcassets */,
+				DB2FE3AA1E2D46EC006A8CCC /* LaunchScreen.storyboard */,
+				DB2FE3AD1E2D46EC006A8CCC /* Info.plist */,
+				DB2FE39C1E2D46EC006A8CCC /* Supporting Files */,
+			);
+			path = BuscaCEP;
+			sourceTree = "<group>";
+		};
+		DB2FE39C1E2D46EC006A8CCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2FE39D1E2D46EC006A8CCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB2FE3B51E2D4958006A8CCC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2FE3981E2D46EC006A8CCC /* BuscaCEP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2FE3B01E2D46EC006A8CCC /* Build configuration list for PBXNativeTarget "BuscaCEP" */;
+			buildPhases = (
+				32A3CCC20C9577CE935E7DFA /* [CP] Check Pods Manifest.lock */,
+				DB2FE3951E2D46EC006A8CCC /* Sources */,
+				DB2FE3961E2D46EC006A8CCC /* Frameworks */,
+				DB2FE3971E2D46EC006A8CCC /* Resources */,
+				EDFFFE0C7C949533FF02AB17 /* [CP] Embed Pods Frameworks */,
+				33E1EDF68C6F96539C7B3D5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuscaCEP;
+			productName = BuscaCEP;
+			productReference = DB2FE3991E2D46EC006A8CCC /* BuscaCEP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2FE3911E2D46EB006A8CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dpagliotto;
+				TargetAttributes = {
+					DB2FE3981E2D46EC006A8CCC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = DB2FE3941E2D46EB006A8CCC /* Build configuration list for PBXProject "BuscaCEP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2FE3901E2D46EB006A8CCC;
+			productRefGroup = DB2FE39A1E2D46EC006A8CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2FE3981E2D46EC006A8CCC /* BuscaCEP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2FE3971E2D46EC006A8CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2FE3AC1E2D46EC006A8CCC /* LaunchScreen.storyboard in Resources */,
+				DB2FE3A91E2D46EC006A8CCC /* Assets.xcassets in Resources */,
+				DB2FE3A71E2D46EC006A8CCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A3CCC20C9577CE935E7DFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33E1EDF68C6F96539C7B3D5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuscaCEP/Pods-BuscaCEP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDFFFE0C7C949533FF02AB17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuscaCEP/Pods-BuscaCEP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2FE3951E2D46EC006A8CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2FE3A41E2D46EC006A8CCC /* ViewController.m in Sources */,
+				DB2FE3A11E2D46EC006A8CCC /* AppDelegate.m in Sources */,
+				DB2FE39E1E2D46EC006A8CCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB2FE3A51E2D46EC006A8CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2FE3A61E2D46EC006A8CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2FE3AA1E2D46EC006A8CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2FE3AB1E2D46EC006A8CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2FE3AE1E2D46EC006A8CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB2FE3AF1E2D46EC006A8CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2FE3B11E2D46EC006A8CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0081086221F69133DBFDDE7 /* Pods-BuscaCEP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuscaCEP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.dpagliotto.BuscaCEP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB2FE3B21E2D46EC006A8CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F45F207566CC2E1260CD16C /* Pods-BuscaCEP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuscaCEP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.dpagliotto.BuscaCEP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2FE3941E2D46EB006A8CCC /* Build configuration list for PBXProject "BuscaCEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2FE3AE1E2D46EC006A8CCC /* Debug */,
+				DB2FE3AF1E2D46EC006A8CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2FE3B01E2D46EC006A8CCC /* Build configuration list for PBXNativeTarget "BuscaCEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2FE3B11E2D46EC006A8CCC /* Debug */,
+				DB2FE3B21E2D46EC006A8CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2FE3911E2D46EB006A8CCC /* Project object */;
+}
